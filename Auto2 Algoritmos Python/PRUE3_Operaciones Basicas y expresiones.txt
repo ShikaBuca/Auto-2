@@ -1,0 +1,24 @@
+# Solicitar números al usuario
+valor_a = float(input("Ingrese el primer valor: "))
+valor_b = float(input("Ingrese el segundo valor: "))
+
+# Realizar operaciones aritméticas
+adicion = valor_a + valor_b
+sustraccion = valor_a - valor_b
+producto = valor_a * valor_b
+
+# Verificar división por cero
+if valor_b != 0:
+    cociente = valor_a / valor_b
+    print(f"El cociente es: {cociente}")
+else:
+    print("No se puede dividir por cero.")
+
+# Comparaciones y mensajes
+if adicion > producto:
+    print("La suma es mayor que el producto.")
+elif adicion < producto:
+    print("La suma es menor que el producto.")
+else:
+    print("La suma es igual al producto.")
+

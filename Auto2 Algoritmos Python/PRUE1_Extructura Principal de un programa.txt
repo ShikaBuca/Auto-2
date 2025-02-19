@@ -1,0 +1,14 @@
+import datetime
+
+# Solicitar al usuario su nombre y edad
+nombre = input("Ingrese su nombre: ")
+edad = int(input("Ingrese su edad: "))
+
+# Obtener el año actual
+anio_actual = datetime.datetime.now().year
+
+# Calcular el año en que cumplirá 100 años
+anio_cumple_100 = anio_actual + (100 - edad)
+
+# Imprimir el resultado
+print(f"Hola {nombre}, cumplirás 100 años en el año {anio_cumple_100}.")

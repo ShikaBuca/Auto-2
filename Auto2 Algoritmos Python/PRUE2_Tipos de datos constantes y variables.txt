@@ -1,0 +1,23 @@
+# Declaración de variables
+numero_1 = 45.7
+numero_2 = 7.3
+nombre_calculadora = "Calculadora Simple"
+	
+# Declaración de constante (por convención)
+VERSION = 1.0
+
+# Cálculos
+suma = numero_1 + numero_2
+resta = numero_1 - numero_2
+multiplicacion = numero_1 * numero_2
+division = numero_1 / numero_2
+	
+# Imprimir resultados
+print(f"Nombre de la Calculadora: {nombre_calculadora}")
+print(f"Version: {VERSION}")
+print(f"Numero 1: {numero_1}")
+print(f"Numero 2: {numero_2}")
+print(f"Suma: {suma}")
+print(f"Resta: {resta}")
+print(f"Multiplicacion: {multiplicacion}")
+print(f"Division: {division}")
